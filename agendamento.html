@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>PFB NO PARQUE</title>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Tássio Linhares"/>
+        <meta name="keywords" content="PFB,ProgressiveFitBall,parque,aulas,ar livre,atividades físicas"/>
+        <meta name="description" content="Aulas de ProgressiveFitBall no Parque da Cidade nos finais de semana"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <img src="img/banner.png" alt="Campo verde com arvores e slogan da ProgressiveFitBall" width="100%" height="auto"/>
+        </header>
+
+        <nav>
+            <a class="menu" href="index.html">HOME</a>
+
+            <a class="menu" href="index.html#pagebeneficios">BENEFICIOS</a>
+
+            <a class="menu" href="index.html#pageModalidades">MODALIDADES</a>
+
+            <a class="menu" href="index.html#pageTreinos">TREINOS</a>
+
+            <a class="menu" href="#">AGENDAMENTOS</a>
+        </nav>
+
+        <section id="pageagendamentos">
+
+            <h1>AGENDAMENTOS</h1>
+
+            <p>Agende um aula experimental grátis agora mesmo</p>
+
+            <!--Formulário-->
+            <form name="frm-agendamento" method="GET">
+                <label for="nome">Nome:</label>
+                <input name="nome" type="text" maxlength="50" placeholder="Nome Completo" autofocus required/>
+
+                <label for="email">E-mail:</label>
+                <input name="email" type="email" placeholder="usuario@email.com"/>
+
+                <label for="senha">Senha</label>
+                <input name="senha" type="password" placeholder="Somente números" required minlength="8"/>
+
+                <label for="celular">Celular:</label>
+                <input type="tel" name="celular" placeholder="(99) 99999-9999" pattern="\(\d{2}\) \d{5}-\d{4}"/>
+
+                <div class="container">
+                    <div>
+                        <label for="data">Data</label>
+                        <input type="date" name="data"/>
+                    </div>
+
+                    <div>
+                        <label for="horas">Horas</label>
+                        <input type="time" name="horas">
+                    </div>
+
+                    </div>
+                        <label for="aulas">Aulas</label>
+                        <input type="number" name="aulas" min="1" max="5" step="1"/>
+                    </div>
+                </div>
+
+                <label for="nivel">Nível</label>
+                <select name="nivel">
+                    <option value="basico">Básico</option>
+                    <option value="intermediario">Intermediário</option>
+                    <option value="avancado">Avançado</option>
+                </select>
+
+                <fieldset>
+                    <legend>Gênero</legend>
+                    <input type="radio" name="genero" value="masc"/>
+                    <label for="masc">Masculino</label><br/>
+                    <input type="radio" name="genero" value="fem">
+                    <label for="fem">Feminino</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Atividades</legend>
+                    <input type="checkbox" name="atividades" value="yoga"/>
+                    <label for="yoga">Yoga</label><br/>
+                    <input type="checkbox" name="atividades" value="musculacao">
+                    <label for="musculacao">Musculação</label><br/>
+                    <input type="checkbox" name="atividades" value="ciclismo">
+                    <label for="ciclismo">Ciclismo</label><br/>
+                    <input type="checkbox" name="atividades" value="pilates">
+                    <label for="pilates">Pilates</label>
+                </fieldset>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" rows="5" cols="50" placeholder="Escreva aqui sua mensagem."></textarea>
+
+                <div id="botoes-form">
+                    <input type="submit" name="btn-enviar" value="AGENDAR">
+                    <input type="reset" name="btn-cancelar" value="CANCELAR">
+                </div>
+
+            </form>
+        </section>
+
+        <footer>
+            <p>Desenvolvido por
+                    <a href="https://www.linkedin.com/in/tassio-linhares/" target="_blank">Tássio Melo</a> 2025
+            </p>
+        </footer>
+        
+    </body>
+</html>

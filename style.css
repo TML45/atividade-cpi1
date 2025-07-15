@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Irish+Grover&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+header, #img-topo {
+  width: 100%;
+  background-color: #C8B79D
+}
+
+nav {
+    width: 100%;
+    background-color: #C8B79D;
+    text-align: center;
+    padding: 2 rem;
+}
+
+a{
+    font-family: "Irish Grover", Arial, Helvetica, serif;
+    text-decoration: none;
+}
+
+.menu {
+    color: #000;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin-right: 30px;
+}
+
+.menu:hover {
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.menu:active {
+    color: #C8B79D;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+/*.menu:visited {
+    color: blue;
+    background-color: #C8B79D;
+}*/
+
+main, section {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+h1 {
+    font-family:  "Imperial Script", Arial, Helvetica, serif;
+    font-size: 4rem;
+    color: #C8B79D;
+    text-align: center;
+    font-weight: 700;
+}
+
+p, span {
+    font: 1.5rem "Irish Grover", Arial, Helvetica, serif;
+    color: #000;
+    text-align: justify;
+}
+
+#pagebeneficios {
+    background-color: #000;
+}
+
+h2 {
+    font-family:  "Imperial Script", Arial, Helvetica, serif;
+    font-size: 3rem;
+    color: #C8B79D;
+    text-align: center;
+    font-weight: 700;
+}
+
+#pagebeneficios p {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: circle;
+    color: #fff;
+    margin-left: 2rem;
+}
+
+#segundo{
+    list-style-type: square;
+}
+
+li {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+#pageModalidades {
+    background-color: #fff;
+}
+
+.img-caracteristicas {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #C8B79D;
+    border-radius: 10px;
+    text-align: center;
+    width: 24%;
+    box-shadow: 5px 5px 5px 5px  gray;
+    transition: 2s;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 8px 8px gray;
+}
+
+h3 {
+    font-family:  "Imperial Script", Arial, Helvetica, serif;
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.card-text {
+    font-family: "Irish Grover", Arial, Helvetica, serif;
+    font-size: 1.2rem;
+    color: #000;
+    padding: 1rem;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 1rem;
+}
+
+footer p, footer a{
+    font-family: "Irish Grover", Arial, Helvetica, serif;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+#pageagendamentos p {
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 0 auto;
+}
+
+label, fieldset {
+    /*display: block;*/
+    margin-bottom: 10px;
+    font-family: "Irish Grover", Arial, Helvetica, serif;
+    font-size: 1.2rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Irish Grover", Arial, Helvetica, serif;
+    font-size: 1.2rem; 
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 10px;
+    margin-left: 40px;
+}
+
+#botoes-form {
+    display: flex;
+}
+
+input[type="submit"], input[type="reset"] {
+    margin: 20px;
+    background-color: #C8B79D;
+    border: 0;
+}
+
+input[type="reset"] {
+    background-color: orange;
+}
